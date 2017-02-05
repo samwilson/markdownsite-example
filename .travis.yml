@@ -1,0 +1,5 @@
+language: bash
+install:
+  - git clone https://github.com/samwilson/markdownsite.git
+script:
+  - markdownsite/travis-deploy.sh
