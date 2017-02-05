@@ -1,3 +1,4 @@
 language: bash
+sudo: required
 script:
   - markdownsite/travis-deploy.sh
